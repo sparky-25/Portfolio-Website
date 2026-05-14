@@ -3,8 +3,8 @@ const fs = require("node:fs");
 const path = require("node:path");
 
 const root = __dirname;
-const port = 4173;
-const host = "127.0.0.1";
+const port = process.env.PORT || 4173;
+const host = process.env.HOST || "0.0.0.0";
 
 const mimeTypes = {
   ".html": "text/html; charset=utf-8",
