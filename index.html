@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Manya & DhwaJ create premium modern websites, UI/UX experiences, and digital brands with cinematic monochrome design."
+    />
+    <meta
+      name="keywords"
+      content="Manya and DhwaJ, web designers, UI UX, portfolio website, premium website developers"
+    />
+    <meta name="theme-color" content="#000000" />
+    <title>Manya & DhwaJ | Creative Website Designers & Developers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="loader" aria-hidden="true">
+      <div class="loader-mark">M&D</div>
+      <div class="loader-line"><span></span></div>
+    </div>
+
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <div class="custom-cursor" aria-hidden="true"></div>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="site-header" data-animate>
+      <a class="brand" href="#hero" aria-label="Manya and DhwaJ home">
+        <span>M</span><span>&</span><span>D</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#plans">Plans</a>
+        <a href="#projects">Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="nav-cta magnetic" href="#contact">Start Project</a>
+      <button class="menu-toggle" type="button" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <main>
+      <section id="hero" class="hero section">
+        <canvas class="hero-canvas" aria-hidden="true"></canvas>
+        <figure class="hero-character hero-character-left" aria-label="DhwaJ character">
+          <img src="1.png" alt="DhwaJ character" />
+          <figcaption>Hey, I am DhwaJ</figcaption>
+        </figure>
+        <figure class="hero-character hero-character-right" aria-label="Manya character">
+          <img src="2.png" alt="Manya character" />
+          <figcaption>Hey, I am Manya</figcaption>
+        </figure>
+        <div class="hero-orbit" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow reveal">Independent Creative Studio</p>
+          <h1 class="hero-title" aria-label="Manya and DhwaJ">
+            <span>Manya</span>
+            <span>&amp;</span>
+            <span>DhwaJ</span>
+          </h1>
+          <p class="hero-subtitle reveal">Creative Website Designers &amp; Developers</p>
+          <p class="hero-copy reveal">
+            We craft cinematic websites, expressive UI/UX systems, and sharp digital brands for
+            teams that want their first impression to feel unmistakably premium.
+          </p>
+          <div class="hero-actions reveal">
+            <a class="button button-primary magnetic" href="#projects">View Work</a>
+            <a class="button button-ghost magnetic" href="#contact">Contact Us</a>
+          </div>
+        </div>
+        <div class="hero-meta reveal">
+          <span>Monochrome Interfaces</span>
+          <span>Motion Systems</span>
+          <span>Performance First</span>
+        </div>
+        <a class="scroll-cue" href="#about" aria-label="Scroll to about">
+          <span></span>
+        </a>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="section-heading" data-animate>
+          <p class="eyebrow">About The Duo</p>
+          <h2>Handcrafted websites with a cinematic pulse.</h2>
+        </div>
+        <div class="about-grid">
+          <article class="about-story glass-card" data-animate>
+            <p>
+              Manya &amp; DhwaJ are passionate designers and developers building premium digital
+              experiences for modern brands. Every project blends sharp visual direction, smooth
+              interaction design, responsive engineering, and a careful focus on speed.
+            </p>
+            <p>
+              Their work is shaped for clients who want more than a template: a unique website
+              experience that feels intentional, memorable, and technically refined.
+            </p>
+          </article>
+          <div class="about-cards">
+            <article class="metric-card" data-animate>
+              <span>01</span>
+              <h3>Creative Direction</h3>
+              <p>Distinct visual systems, refined layouts, and brand-first storytelling.</p>
+            </article>
+            <article class="metric-card" data-animate>
+              <span>02</span>
+              <h3>Modern UI/UX</h3>
+              <p>Interfaces built for clarity, motion, and frictionless user journeys.</p>
+            </article>
+            <article class="metric-card" data-animate>
+              <span>03</span>
+              <h3>Performance Craft</h3>
+              <p>Lean pages, fast interactions, and responsive experiences on every screen.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills">
+        <div class="section-heading centered" data-animate>
+          <p class="eyebrow">Capabilities</p>
+          <h2>Design taste meets production-ready execution.</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card" style="--level: 94" data-animate>
+            <div class="skill-icon" aria-hidden="true">⌁</div>
+            <h3>Frontend Development</h3>
+            <div class="progress"><span></span></div>
+          </article>
+          <article class="skill-card" style="--level: 96" data-animate>
+            <div class="skill-icon" aria-hidden="true">◇</div>
+            <h3>UI/UX Design</h3>
+            <div class="progress"><span></span></div>
+          </article>
+          <article class="skill-card" style="--level: 98" data-animate>
+            <div class="skill-icon" aria-hidden="true">▣</div>
+            <h3>Responsive Design</h3>
+            <div class="progress"><span></span></div>
+          </article>
+          <article class="skill-card" style="--level: 91" data-animate>
+            <div class="skill-icon" aria-hidden="true">↯</div>
+            <h3>Animation &amp; Interactions</h3>
+            <div class="progress"><span></span></div>
+          </article>
+          <article class="skill-card" style="--level: 88" data-animate>
+            <div class="skill-icon" aria-hidden="true">✦</div>
+            <h3>Branding</h3>
+            <div class="progress"><span></span></div>
+          </article>
+          <article class="skill-card" style="--level: 84" data-animate>
+            <div class="skill-icon" aria-hidden="true">◌</div>
+            <h3>3D Website Integration</h3>
+            <div class="progress"><span></span></div>
+          </article>
+          <article class="skill-card" style="--level: 93" data-animate>
+            <div class="skill-icon" aria-hidden="true">▰</div>
+            <h3>Performance Optimization</h3>
+            <div class="progress"><span></span></div>
+          </article>
+          <article class="skill-card" style="--level: 90" data-animate>
+            <div class="skill-icon" aria-hidden="true">⌘</div>
+            <h3>Modern Web Technologies</h3>
+            <div class="progress"><span></span></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="plans" class="section plans">
+        <div class="section-heading" data-animate>
+          <p class="eyebrow">Services / Plans</p>
+          <h2>Flexible builds for bold digital launches.</h2>
+        </div>
+          <div class="pricing-grid">
+          <article class="price-card" data-animate>
+            <span class="plan-index">01</span>
+            <h3>Starter Plan</h3>
+            <div class="plan-price">
+              <span>Starting at</span>
+              <strong>$39</strong>
+            </div>
+            <p>Clean presence for personal brands and early portfolios.</p>
+            <ul>
+              <li>Basic Portfolio Website</li>
+              <li>Responsive Design</li>
+              <li>Modern UI</li>
+              <li>Contact Form</li>
+            </ul>
+            <a class="button button-ghost magnetic" href="#contact">Choose Starter</a>
+          </article>
+          <article class="price-card featured" data-animate>
+            <span class="plan-index">02</span>
+            <h3>Professional Plan</h3>
+            <div class="plan-price">
+              <span>Starting at</span>
+              <strong>$99</strong>
+            </div>
+            <p>Advanced business website with polished motion and conversion flow.</p>
+            <ul>
+              <li>Advanced Business Website</li>
+              <li>Custom Animations</li>
+              <li>Premium UI/UX</li>
+              <li>SEO Friendly</li>
+              <li>Fast Performance</li>
+            </ul>
+            <a class="button button-primary magnetic" href="#contact">Choose Professional</a>
+          </article>
+          <article class="price-card" data-animate>
+            <span class="plan-index">03</span>
+            <h3>Ultimate Plan</h3>
+            <div class="plan-price">
+              <span>Starting at</span>
+              <strong>$199</strong>
+            </div>
+            <p>Fully custom digital product experience with advanced interaction layers.</p>
+            <ul>
+              <li>Fully Custom Website</li>
+              <li>3D Elements</li>
+              <li>Advanced Animations</li>
+              <li>Dashboard/Panel Integration</li>
+              <li>Full Premium Experience</li>
+            </ul>
+            <a class="button button-ghost magnetic" href="#contact">Choose Ultimate</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects">
+        <div class="section-heading centered" data-animate>
+          <p class="eyebrow">Selected Work</p>
+          <h2>Futuristic sample projects with a luxury black-frame language.</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card" data-animate>
+            <div class="project-visual nova" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="project-info">
+              <h3>Nova Studio</h3>
+              <p>Editorial portfolio with cinematic scroll scenes.</p>
+            </div>
+          </article>
+          <article class="project-card" data-animate>
+            <div class="project-visual blackframe" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="project-info">
+              <h3>BlackFrame</h3>
+              <p>Premium agency interface with glass dashboards.</p>
+            </div>
+          </article>
+          <article class="project-card" data-animate>
+            <div class="project-visual visionx" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="project-info">
+              <h3>VisionX</h3>
+              <p>Futuristic startup launch page with motion systems.</p>
+            </div>
+          </article>
+          <article class="project-card" data-animate>
+            <div class="project-visual nebula" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="project-info">
+              <h3>Nebula Web</h3>
+              <p>Experimental 3D-ready web experience concept.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="contact-panel" data-animate>
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s Build Your Website.</h2>
+          </div>
+          <div class="contact-links" aria-label="Contact links">
+            <a class="contact-link magnetic" href="mailto:zerakubusiness@gmail.com">
+              <span class="contact-label">
+                <svg aria-hidden="true" viewBox="0 0 24 24">
+                  <path d="M4 6h16v12H4z" />
+                  <path d="m4 7 8 6 8-6" />
+                </svg>
+                Email
+              </span>
+              <strong>zerakubusiness@gmail.com</strong>
+            </a>
+            <a
+              class="contact-link magnetic"
+              href="https://www.instagram.com/web.creator.3.20/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="contact-label">
+                <svg aria-hidden="true" viewBox="0 0 24 24">
+                  <rect x="5" y="5" width="14" height="14" rx="4" />
+                  <circle cx="12" cy="12" r="3.2" />
+                  <path d="M16.7 7.6h.1" />
+                </svg>
+                Instagram
+              </span>
+              <strong>@web.creator.3.20</strong>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-line" aria-hidden="true"></div>
+      <p>Designed by Manya &amp; DhwaJ</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
